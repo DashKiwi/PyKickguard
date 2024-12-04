@@ -4,6 +4,8 @@ PyKickGuard is a simple piece of software to allow you to not get kicked for ina
 
 ## Installation
 
+Only do the steps below if you want to run the python file instead of the exe. 
+
 You can either run the setup.bat file found in the top folder (will ask for administrator) of the repository or manually download the required library's below.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the needed library's.
@@ -20,7 +22,7 @@ sudo pip install keyboard
 Note: sudo is required for the keyboard library because it is accessing the lower levels of the computers input system which Linux doesnt allow. 
 
 ## Usage
-To automatically start it you can run the Start.bat file which will start the program (reccomend a shortcut) or run the code below in the terminal to start it manually
+To automatically start it you can run the exe or run the start.bat file (alternatively you can run the code below in the terminal to start the python code)
 
 ```bash
 cd yourdrive:\pathtofolder
